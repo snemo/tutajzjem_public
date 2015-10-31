@@ -1,0 +1,269 @@
+/***************************
+*** GLOBAL STYLES **********
+***************************/
+/* END OF FLOAT */	
+.eof:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+body {min-width: 1000px; margin: 0px; color: #3e3e3e; font-weight: normal; font-family: 'Play', sans-serif;}
+.centered {margin: 0 auto; width: 960px; position: relative;}	
+/* PAGE BG */
+#total-wrap {}
+#total-wrap, #report-wrap {position: relative; z-index: 2;}
+
+/*FONT*/
+.font-signika {}
+.font-white {color: #FFFFFF;}
+.font-footer-white {color: #FFFFFF; font-size: 13px;}
+.orange {color:#ff8a00;}
+.white {color:#FFFFFF;}
+.gray {color:#3e3e3e;}
+.bold {font-weight: bold;}
+h1 {font-size: 24px; font-weight: bold; margin-top: 0px;}
+h2 {font-size: 21px;}
+
+
+/*LAYOUT*/
+.right {float: right;}
+.left {float: left;}
+
+/*LINK*/
+.link:link {color: #3e3e3e; text-decoration: none;}
+.link:visited {color: #3e3e3e; text-decoration: none;}
+.link:hover { color: #ff8a00; }
+.orange-link:link {color: #ff8a00; text-decoration: none;}
+.orange-link:visited {color: #ff8a00; text-decoration: none;}
+.orange-link:hover { color: #ffffff; }
+
+.policy-back-btn {display: block; padding-right: 0; padding-left: 0; width: 250px; float: right; margin-bottom: 30px; margin-top: 15px;}
+
+
+/***************************
+*** HEADER & MENU **********
+***************************/
+.menu-container {width: 100%; height: 123px; background-image: url(../images/tutajzjem_header_bg.jpg); background-repeat:repeat-x;}
+.menu-logo {width: 280px; height: 63px; float: left; margin-top:14px; background: url(../images/tutajzjem_batch.png) no-repeat 0px 0px;}
+.menu-sentence {width: 280px; height: 39px; float: right; margin-top:28px; background: url(../images/tutajzjem_batch.png) no-repeat 0px -65px;}
+.menu-search {float: right; width: 490px; margin-top: 27px; margin-right: 15px;}
+
+/***************************
+*** SEARCH BLOCK **********
+***************************/
+.search-foto-container {width: 100%; height: 392px; background-color: #FFFFFF; margin: 0 auto;}
+.search-foto {width: 100%; height: 392px; margin: 0 auto; background: url(../images/tutajzjem_searchfoto.jpg) 50% 50% / cover no-repeat;}
+.search-block {margin: 0 auto; width: 895px; height: 300px; background: url(../images/tutajzjem_batch.png) no-repeat 0px -105px;}
+.search-container {width: 100%; height: 300px; margin-top: -350px;}
+.search-space {width: 100%; height: 50px;}
+.search-input-group {width: 529px; margin-left: 167px;}
+.btn-search {background-color: #ff8a00; color: #FFFFFF; width: 75px;}
+.search-recommended {width: 529px; margin-left: 167px; margin-top: 40px;}
+.search-recommended-block {margin-top: 20px;}
+.search-recommended-city {width:100%; float: left;}
+.search-recommended-city-title {}
+.search-recommended-restaurants {width:50%; float: left;}
+.search-recommended-restaurants-title {}
+.search-recommended-ul {width:130px; padding-left: 15px;}
+.search-recommended-ul li {margin-left: -14px; list-style-position: inside; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.search-recommended-ul li a:link {color: #FFFFFF; text-decoration: none;}
+.search-recommended-ul li a:visited {color: #FFFFFF; text-decoration: none;}
+.search-recommended-ul li a:hover { color: #ff8a00; }
+
+/***************************
+*** FOOTER BLOCK **********
+***************************/
+.footer-container {width: 100%; height: 295px; background-image: url(../images/tutajzjem_footer_bg.jpg); background-repeat:repeat-x;}
+.footer-strip {width:100%; height: 60px;}
+.footer-strip-text {float: left; color: #FFFFFF; font-size: 23px; margin-top: 12px;}
+.footer-strip-login {width:294px; height:50px; float: right; background: url(../images/tutajzjem_batch.png) no-repeat 0px -1336px;}
+.footer-info {width:100%; height: 187px; margin-top: 10px;}
+.footer-info-col-1 {width:530px; float:left;}
+.footer-warch-block {height:60px; margin-top:20px;}
+.footer-watch {width:50px; height:47px; float:left; background: url(../images/tutajzjem_batch.png) no-repeat -5px -1406px;}
+.footer-watch-text {float: left; margin-top: 8px; margin-left:15px;}
+.footer-bulb-block {height:60px; margin-top:20px;}
+.footer-bulb {width:50px; height:50px; float:left; background: url(../images/tutajzjem_batch.png) no-repeat -5px -1475px;}
+.footer-bulb-text {float: left; margin-top: 8px; margin-left:15px;}
+.footer-info-col-2 {width:100px; float:left;}
+.footer-info-msg {width:81px; height:81px; margin-top:47px; background: url(../images/tutajzjem_batch.png) no-repeat -2px -1538px;}
+.footer-info-col-3 {float:left;}
+.footer-info-question {margin-top:18px}
+.footer-info-contact {margin-top:13px;}
+.footer-info-contact a:link {color: white;}
+.footer-info-address {margin-top:13px;}
+.footer-copyright {width: 100%;}
+.footer-copyright-text {float:left; margin-top:10px;}
+.footer-copyright-logo {width:138px; height:24px; float:right; margin-top:6px; background: url(../images/tutajzjem_batch.png) no-repeat -3px -1643px;}
+
+/***************************
+*** RECOMMEND BLOCK ********
+***************************/
+.recommended-part {width: 100%; height: 500px; background: url(../images/tutajzjem_gray_bg.jpg) 50% 50% / cover no-repeat;}
+.recommended-title { width: 275px; height: 75px; background: url(../images/tutajzjem_batch.png) no-repeat 0px -470px;}
+.part-title {margin: 0 auto; width: 275px; height: 100px; padding-top: 40px;}
+.restaurant-circle {width: 200px; height: 200px; margin: 0 auto;}
+.restaurant-circle-img {background-position: 50% 50%; background-repeat: no-repeat; border-radius: 50%; width: 200px; height: 200px;}
+.restaurant-item {width:270px; float: left; margin-left: 48px; padding-top: 15px; color:gray;}
+.restaurant-item:hover {cursor:pointer; text-decoration: underline; background-color: #444444;}
+.recommended-big {margin-top: 40px;}
+.restaurant-item-name {font-weight: bold; text-align: center; margin-top: 22px;}
+.restaurant-item-address {text-align: center; font-size:14px;}
+.restaurant-item-openhours {text-align: center; font-size:14px;}
+.restaurant-item-checkmenu {text-align: center; font-size:14px;}
+
+/***************************
+*** USER SPEC BLOCK ********
+***************************/
+.userspec-part {width: 100%; height: 650px; background: url(../images/tutajzjem_white_bg.png);}
+.userspec-title { width: 256px; height: 110px; background: url(../images/tutajzjem_batch.png) no-repeat 0px -631px;}
+.userspec-part-title {margin: 0 auto; width: 275px; height: 165px; padding-top: 40px;}
+.userspec-desc-1 {text-align: center; font-size:15px; margin-top:15px;}
+.userspec-desc-2 {text-align: center; font-size:30px; margin-top:10px;}
+.userspec-desc-3 {text-align: center; margin-bottom: 20px; font-size:15px;}
+.userspec-infographic {width: 831px; height: 272px; margin: 0 auto; background: url(../images/tutajzjem_batch.png) no-repeat 0px -1058px;}
+
+/***************************
+*** COMPANY SPEC BLOCK *****
+***************************/
+.companyspec-part {width: 100%; height: 561px; background: url(../images/tutajzjem_gray_bg.jpg) 50% 50% / cover no-repeat;}
+.companyspec-title { width: 271px; height: 110px; background: url(../images/tutajzjem_batch.png) no-repeat 0px -765px;}
+.companyspec-part-title {margin: 0 auto; width: 275px; height: 184px; padding-top: 47px;}
+.companyspec-infographic {width: 727px; height: 147px; margin:0 auto; background: url(../images/tutajzjem_batch.png) no-repeat 0px -889px;}
+.companyspec-content {width: 865px; height: 300px; margin: 0 auto;}
+.companyspec-column {float: left; width: 245px; margin-left: 43px;}
+.companyspec-col-title {text-align: center; font-weight: bold; font-size: 17px; margin-bottom: 7px; margin-top:10px;}
+.companyspec-col-desc {text-align: center; font-size: 13px;}
+
+/***************************
+*** SEARCH PAGE ************
+***************************/
+.overlay {opacity:0.8; background-color:#FFFFFF; position:absolute; width:100%; height:100%; top:0px; left:0px; z-index:1000; display: none;}
+.search-bg {position: relative; background: url(../images/tutajzjem_white_bg.png);}
+
+/* HEADER */
+.search-header {width: 100%; height: 60px; background-color: #ebebeb; padding-top: 15px;}
+.search-result-info {float: left; color: #969696; font-size: 24px; }
+.search-result-icon {float: left; width: 25px; height: 25px; margin-top: 4px; margin-right: 8px; background: url(../images/tutajzjem_search_batch.png) no-repeat 0px -66px;}
+.search-header-query {width:100%; height:35px; padding-left: 50px;}
+
+/* RESULT */
+.search-results-container {float:left; width: 744px; padding-left: 25px; padding-top: 15px; position:relative; background-color: #FFFFFF;}
+.search-content {display: inline-block; overflow: hidden;}
+.search-results {}
+.search-result-line {margin-top: 10px; margin-bottom: 10px;}
+.search-item {width: 100%; height: 150px; margin-top: 0px;}
+.restaurant-small-circle-img {background-position: 50% 50%; background-repeat: no-repeat; border-radius: 50%; width: 150px; height: 150px;}
+.search-item-img {float:left;}
+.search-item-rest {float:left; height: 100%; width:330px; padding-top: 10px; padding-left: 15px;}
+.search-item-rest2 {float:left; width:200px; padding-top: 10px; padding-left: 15px;}
+.search-item-name {width: 100%; font-size: 21px; font-weight: bold;}
+.search-item-address {width: 100%; color: #969696; font-size: 15px; font-weight: normal;}
+.search-item-see {color: #000000; font-weight: bold; font-size: 16px;}
+.search-item-menulink {color: #7a0026; margin-left: 10px;}
+.search-item-type {font-size: 14px; color: #7a0026; margin-top: 20px;}
+.search-item-cuisine {font-size: 14px;color: #7a0026;}
+.search-item-openhours {margin-top: 15px;}
+.search-item-openhours-label {color: #000000; font-weight: bold;}
+.search-item-openhours-hour {color: #969696; font-size: 16px; font-weight: normal; display: block;}
+.search-item-name h2 {}
+.search-item-name h2 a {padding-top: 40px; padding-bottom: 102px;}
+
+/* FILTERS */
+.search-filter {float:left; width: 215px;  background-color: #3e3e3e; padding-top: 25px; padding-bottom: 10000px; margin-bottom: -10000px;}
+.search-filter-name {font-size: 18px; font-weight: bold; margin-bottom: 15px; text-align: center;}
+.search-filter-checkbox {margin-left: 30px; font-size: 16px; font-weight: normal; display: block;}
+.search-filter-icon {width: 76px; height: 35px; margin:0 auto; background: url(../images/tutajzjem_search_batch.png) no-repeat 0px -167px;}
+.search-filter-space {height: 25px;}
+
+/* NO RESULT */
+.search-noresult {width: 271px; height: 180px; background: url(../images/tutajzjem_noresults.png) no-repeat; margin: 0 auto;}
+
+/***************************
+*** RESTAURANT PAGE ********
+***************************/
+.restaurant-content {width: 960px; margin-top: 20px; margin-bottom: 30px;}
+.restaurant-block-1 {height: 423px;}
+.restaurant-block-2 {height: 320px;}
+.restaurant-images {float: left;}
+.restaurant-info {float: left;}
+
+
+/* GALLERY */
+.restaurant-gallery {width: 450px; height: 420px; overflow: hidden; float:left;}
+.restaurant-maim-img-wrap {width:450px; height:325px; display: block; position: relative;}
+.restaurant-maim-img {display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; cursor: pointer;}
+.restaurant-thumbs {height: 80px; width: 1000px;}
+.restaurant-thumbs-img-wrap {width: 106px; height: 78px; margin: 2px 9px 2px 0; overflow: hidden; float: left; position: relative; cursor: pointer;}
+.restaurant-thumbs-img {position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0;}
+.restaurant-thumbs-container {width: 450px; height:80px; position:relative; overflow: hidden; margin-top: 7px;}
+.restaurant-thumbs-wrap {width: 450px; height:80px; overflow: hidden;}
+.restaurant-thumbs-btn-prev {width: 20px; height: 100%; position: absolute; display: block; top: 0; left: 0; cursor: pointer; }
+.restaurant-thumbs-btn-next {width: 20px; height: 100%; position: absolute; display: block; top: 0; right: 0; cursor: pointer; }
+.fancybox-gallery {display: none;}
+
+/* INFO */
+.restaurant-info {float:left; width:450px; height: 400px; margin-left: 20px;}
+.restaurant-info-name { margin-top: 15px; font-size: 21px;}
+.restaurant-info-wrap {}
+.restaurant-info-address {float: left;}
+.restaurant-info-openhours {float: right;}
+.restaurant-info-hr {margin-top: 10px; margin-bottom: 10px; border-top: 1px solid #3e3e3e;}
+.restaurant-info-openhours-table {width: 100%; font-size: 13px;}
+.restaurant-info-openhours-label {margin-bottom: 10px;}
+.restaurant-info-openhours-currentday {font-weight: bold; color:#ff8a00;}
+.restaurant-info-address-city {margin-bottom: 20px;}
+.restaurant-types {margin-top:15px;}
+.restaurant-cuisines {margin-top:10px;}
+
+/* MAP */
+.restaurant-map {width:450px; height: 300px; float:left;}
+#restaurant-map-canvas {width:450px; height: 300px; margin-top: 20px;}
+.restaurant-empty-map {width:450px; height: 300px; background-color: #AAAAAA;}
+
+/* ABOUT */
+.restaurant-about {width:400px; height: 300px; float:left; margin-left: 20px;}
+.restaurant-about-name {font-size: 21px;}
+.restaurant-about-desc {height:265px; overflow:hidden;}
+
+/* WEEK MENU */
+.menu-header {font-size: 21px; font-weight: bold; }
+.restaurant-weekmenu-title {width: 273px; height: 80px; background: url(../images/tutajzjem_restaurant_batch.png) no-repeat -12px -258px;}
+.restaurant-part-title {margin: 0 auto; width: 275px; height: 130px; padding-top: 35px;}
+.restaurant-weekmenu {width: 100%; display: inline-block; margin-top:38px; padding-bottom:50px; background-color: #444444}
+.restaurant-weekmenu-day {margin-top: 15px; padding-left: 5px;}
+.restaurant-weekmenu-table {width: 100%; font-size: 13px; margin-top: 10px; border-collapse:separate; border-spacing:0 3px;}
+.menu-food {text-align: left;}
+.menu-price {text-align: right;}
+.restaurant-weekmenu-hr {width:100%; margin-top: 10px; margin-bottom: 10px; border-top: 2px dotted #ff8a00;}
+.restaurant-weekmenu-footer {margin: 0 auto; width: 275px; height: 130px; padding-top: 35px;}
+.restaurant-weekmenu-next {width: 273px; height: 90px; background: url(../images/tutajzjem_restaurant_batch.png) no-repeat -12px -356px; cursor: pointer;}
+.restaurant-weekmenu-whole {}
+.restaurant-weekmenu-content {}
+.restaurant-weekmenu-header {width: 100%; height: 30px;}
+.restaurant-weekmenu-current {}
+.restaurant-menu-size {width:720px; margin: 0 auto;}
+.restaurant-weekmenu-table-cont {padding-left: 12px;}
+
+
+/* PERMANENT MENU */
+.restaurant-permanentmenu {width: 100%; display: inline-block; padding-bottom:20px; background-color: #FFFFFF}
+.restaurant-permanentmenu-title {width: 280px; height: 80px; background: url(../images/tutajzjem_restaurant_batch.png) no-repeat -12px -459px;}
+.permanentmenu-category {}
+.permanentmenu-category-name {text-align: center;}
+.restaurant-permanentmenu-cat-hr {margin-top: 10px; margin-bottom: 30px; border-top: 2px dotted #ff8a00;}
+.menu-food-name {font-size: 15px;}
+.menu-food-desc {font-size: 13px; padding-left: 24px;}
+.restaurant-permanentmenu-table {width: 100%; font-size: 13px; margin-top: 10px; margin-bottom:5px; border-collapse:separate; border-spacing:0 3px;}
+.permanentmenu {width: 720px; margin: 30px auto;}
+
+/***************************
+*** AUTOCOMPLETE ********
+***************************/
+.ui-widget-content {background-color: #FFFFFF;}
+.ui-autocomplete-category {font-weight: bold; background-color: #ff8a00; padding-left: 10px; color: #FFFFFF;}
+.ui-menu-item:hover { color: #ff8a00; }
+
+/***************************
+*** COOKIES POLICY ********
+***************************/
+.cookie-policy {width:390px; height:69px; z-index:100; bottom:10px; right:10px; position: fixed; background-color: #FFFFFF; border-radius:6px; padding: 5px 5px 5px 5px; box-shadow: 0px 3px 7px 0px #888888; opacity:0.85; border-style: SOLID; border-width: 1px; border-color: #888888;}
+.cookie-policy-txt {font-size:13px; margin-right: 24px;}
+.cookie-policy-closebtn {position: absolute; top:-2px; right: -2px; color: #222222;}
+.cookie-policy-closebtn:HOVER {color: #888888;}
